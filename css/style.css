@@ -55,7 +55,7 @@ em { color: var(--accent); font-style: normal; }
 .visual-note { width: 100%; margin: 1rem 0 0; color: var(--muted); font-size: .78rem; text-align: center; }
 .scroll-cue { position: static; display: flex; align-items: center; gap: .7rem; margin-top: 1rem; color: var(--muted); font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; }
 .scroll-cue span { display: block; width: 34px; height: 1px; background: var(--accent); }
-@media (max-width: 767px) { .hero-details { text-align: center; } .hero-details h1, .hero-details .hero-intro { margin-inline: auto; } }
+@media (max-width: 767px) { .hero-details h1 { margin-inline: auto; text-align: center; } .hero-details .hero-intro { margin-inline: auto; text-align: justify; } }
 /* === About and Projects === */
 .section { padding-block: var(--space); }
 .about-section { padding-block: clamp(3.5rem, 6vw, 6rem); }
@@ -66,7 +66,7 @@ em { color: var(--accent); font-style: normal; }
 .about-body { max-width: 650px; color: var(--muted); }
 .about-item { border-top: 1px solid var(--line); padding-top: .9rem; }
 .about-label { margin-bottom: .45rem; color: var(--accent); font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
-.about-item p:last-child { margin-bottom: 0; }
+.about-item p:last-child { margin-bottom: 0; text-align: justify; }
 .tag-list { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.7rem; }
 .tag-list span { padding: .35rem .65rem; border: 1px solid var(--line); color: var(--muted); font-size: .72rem; }
 .heading-row { display: flex; flex-direction: column; }
@@ -91,7 +91,7 @@ em { color: var(--accent); font-style: normal; }
 .contact-section { padding-block: var(--space); background: var(--ink); color: var(--bg); }
 .contact-section .eyebrow { color: var(--accent); }
 .contact-section h2 { margin-bottom: 1.5rem; }
-.contact-copy { max-width: 390px; color: var(--muted); }
+.contact-copy { max-width: 390px; color: var(--muted); text-align: justify; }
 .direct-links { margin-top: 2rem; }
 .direct-links a { border-color: #ffffff44; }
 .contact-grid { display: grid; gap: 3rem; }
