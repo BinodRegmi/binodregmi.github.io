@@ -33,7 +33,7 @@ em { color: var(--accent); font-style: normal; }
 .nav-links a:hover { color: var(--accent); }
 .nav-contact { color: var(--accent); }
 /* === Hero === */
-.hero { position: relative; display: grid; min-height: auto; align-items: center; padding-block: 2.5rem 2.5rem; }
+.hero { position: relative; display: grid; min-height: auto; align-items: start; padding-block: 2.5rem 2.5rem; }
 .hero-copy { z-index: 1; margin-bottom: 0; }
 .hero-intro { max-width: 530px; margin-bottom: 1.5rem; color: var(--muted); font-size: 1.12rem; }
 .hero-intro strong { color: var(--ink); }
