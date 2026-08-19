@@ -67,7 +67,6 @@ assets/files/tarakeshwor-municipality-internship.md
 - [GitHub](https://github.com/BinodRegmi)
 - [LinkedIn](https://linkedin.com/in/binod-raj-regmi-669912403)
 - Email: binodrajregmi1@gmail.com
-- Phone: +977 9866001471
 
 ## License
 
