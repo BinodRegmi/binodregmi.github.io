@@ -1,28 +1,74 @@
-# Personal Portfolio
+# My Personal Portfolio
 
-A responsive single-page portfolio built with semantic HTML5, CSS3, and vanilla JavaScript. It has no build step and can be deployed to any static host.
+Welcome to my personal portfolio. I am a civil engineering student from Nepal, and this website shares my education, practical experience, academic work, skills, and contact information.
 
-## Structure
+## Visit the Website
 
-```text
-index.html          Main page markup and metadata
-css/style.css       Responsive themes, layout, and component styles
-js/script.js        Navigation, theme, reveal, form, and footer behavior
-assets/images/      Replaceable photos and project images
-assets/favicon.ico  Replace with your real favicon
+Open the live GitHub Pages website here:
+
+**[Visit My Portfolio](https://binodregmi.github.io/binodrajregmi/)**
+
+## About the Portfolio
+
+The portfolio includes:
+
+- My background and civil engineering education
+- My academic research on the effect of different types of water on concrete strength
+- My internship experience at Tarakeshwor Municipality
+- My skills, including AutoCAD, ETABS, MS Office, and transportation engineering
+- Contact details and a contact form
+- Light and dark theme support
+- Responsive layouts for mobile, tablet, and desktop screens
+
+## Technology
+
+This is a lightweight static website built with:
+
+- Semantic HTML5
+- CSS3 with responsive design and light/dark themes
+- Vanilla JavaScript
+- Google Fonts
+
+There is no build process or package installation required.
+
+## Run Locally
+
+1. Clone the repository:
+
+	```bash
+	git clone https://github.com/BinodRegmi/binodrajregmi.git
+	```
+
+2. Open the project folder.
+
+3. Open `index.html` in a browser, or use any local static server.
+
+For example, with Python:
+
+```bash
+python -m http.server
 ```
 
-## Preview
+Then visit `http://localhost:8000`.
 
-Open `index.html` directly in a browser, or serve the repository with any static file server. No installation or build command is required.
+## Project Structure
 
-## Replace Before Deploying
+```text
+index.html                                  Main portfolio page
+css/style.css                               Layout, themes, and component styles
+js/script.js                                Navigation, themes, animations, and form behavior
+assets/images/                              Portrait and future image assets
+assets/files/tarakeshwor-municipality-internship.md
+															Internship information file
+```
 
-- Replace the Open Graph URL and preview image metadata.
-- Add your portrait to `assets/images/` and update the portrait placeholder when you have the filename.
-- Add a résumé only if you want one displayed on the site.
-- Replace or expand the academic-work card as you complete additional civil engineering projects.
-- Add links to academic reports, project files, or repositories when you are ready to publish them.
-- Confirm your email, phone, WhatsApp, LinkedIn, and GitHub links before deployment.
-- Replace `assets/favicon.ico` with a valid favicon file.
-- Update copyright text if your preferred name differs from the placeholder.
+## Connect
+
+- [GitHub](https://github.com/BinodRegmi)
+- [LinkedIn](https://linkedin.com/in/binod-raj-regmi-669912403)
+- Email: binodrajregmi1@gmail.com
+- Phone: +977 9866001471
+
+## License
+
+This is my personal website. Please contact me before reusing my personal content, images, or contact information.
