@@ -49,6 +49,7 @@ em { color: var(--accent); font-style: normal; }
 .social-links a:hover, .direct-links a:hover, .footer-social a:hover, .text-link:hover, .project-links a:hover { border-color: var(--accent); color: var(--accent); }
 .hero-visual { display: block; justify-self: center; width: min(100%, 340px); }
 .portrait-placeholder { display: grid; width: 100%; aspect-ratio: 4 / 5; align-content: end; justify-items: start; padding: 1.3rem; background: var(--accent-soft); color: var(--accent); }
+.portrait-image { display: block; width: 100%; height: 100%; object-fit: contain; }
 .portrait-initials { font: 700 clamp(5rem, 20vw, 9rem)/.8 var(--heading); letter-spacing: -.1em; }
 .portrait-label { margin-top: 1.2rem; font-size: .72rem; font-weight: 700; text-transform: uppercase; }
 .visual-note { width: 100%; margin: 1rem 0 0; color: var(--muted); font-size: .78rem; text-align: center; }
