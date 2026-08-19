@@ -55,6 +55,7 @@ em { color: var(--accent); font-style: normal; }
 .visual-note { width: 100%; margin: 1rem 0 0; color: var(--muted); font-size: .78rem; text-align: center; }
 .scroll-cue { position: static; display: flex; align-items: center; gap: .7rem; margin-top: 1rem; color: var(--muted); font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; }
 .scroll-cue span { display: block; width: 34px; height: 1px; background: var(--accent); }
+@media (max-width: 767px) { .hero-details { text-align: center; } .hero-details h1, .hero-details .hero-intro { margin-inline: auto; } }
 /* === About and Projects === */
 .section { padding-block: var(--space); }
 .about-section { padding-block: clamp(3.5rem, 6vw, 6rem); }
