@@ -2,8 +2,9 @@
 :root { --bg: #f5f3ef; --surface: #fffdf9; --ink: #171817; --muted: #686a65; --line: #d9d8d1; --accent: #d3543b; --accent-dark: #a53c2a; --accent-soft: #f2d5ca; --heading: 'Space Grotesk', sans-serif; --body: 'DM Sans', sans-serif; --space: clamp(4rem, 10vw, 9rem); --radius: 4px; --transition: 240ms ease; color-scheme: light; }
 [data-theme="dark"] { --bg: #171817; --surface: #222421; --ink: #f5f3ef; --muted: #b4b5ae; --line: #3c3e39; --accent: #f0785a; --accent-dark: #ff9a7e; --accent-soft: #4a2b25; color-scheme: dark; }
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1rem/1.65 var(--body); transition: background var(--transition), color var(--transition); }
+html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1rem/1.65 var(--body); text-rendering: optimizeLegibility; transition: background var(--transition), color var(--transition); }
+img { display: block; max-width: 100%; }
 a { color: inherit; text-decoration: none; transition: color var(--transition), background var(--transition), border-color var(--transition); }
 button, input, textarea { font: inherit; }
 button, a { -webkit-tap-highlight-color: transparent; }
@@ -39,7 +40,7 @@ em { color: var(--accent); font-style: normal; }
 .hero-intro strong { color: var(--ink); }
 .status-dot { display: inline-block; width: 7px; height: 7px; margin-left: .35rem; border-radius: 50%; background: #51a96b; vertical-align: middle; }
 .hero-buttons { display: flex; flex-wrap: wrap; gap: .8rem; margin-bottom: 2rem; }
-.button { display: inline-flex; min-height: 50px; align-items: center; justify-content: center; gap: .7rem; padding: .75rem 1.2rem; border: 1px solid var(--accent); border-radius: var(--radius); cursor: pointer; font-weight: 700; }
+.button { display: inline-flex; min-height: 50px; align-items: center; justify-content: center; gap: .7rem; padding: .75rem 1.2rem; border: 1px solid var(--accent); border-radius: var(--radius); cursor: pointer; font-weight: 700; -webkit-tap-highlight-color: transparent; }
 .button-primary { background: var(--accent); color: #fff; }
 .button-primary:hover { border-color: var(--accent-dark); background: var(--accent-dark); transform: translateY(-2px); }
 .button-quiet { border-color: var(--line); color: var(--ink); }
@@ -58,10 +59,11 @@ a[href*="linkedin.com"], a[href*="linkedin.com"]:hover { color: #0a66c2; }
 .visual-note { width: 100%; margin: 1rem 0 0; color: var(--muted); font-size: .78rem; text-align: center; }
 .scroll-cue { position: static; display: flex; align-items: center; justify-content: center; gap: .7rem; margin-top: 2rem; color: var(--muted); font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; }
 .scroll-cue span, .scroll-cue::after { display: block; width: 34px; height: 1px; background: var(--accent); content: ""; }
-@media (max-width: 767px) { .hero-details h1 { margin-inline: auto; text-align: center; } .hero-details .hero-intro { margin-inline: auto; text-align: justify; } }
+@media (max-width: 767px) { .hero-details h1 { margin-inline: auto; text-align: center; } .hero-details .hero-intro { margin-inline: auto; text-align: left; } }
+@media (max-width: 480px) { .shell { width: min(100% - 1.25rem, 1160px); } .hero-buttons { flex-direction: column; } .button { width: 100%; } .social-links, .direct-links, .footer-social { display: flex; gap: .75rem; } }
 @media (max-width: 767px) { .about-section { display: flex; flex-direction: column; gap: .75rem; } .about-heading, .about-grid, .about-body { display: contents; } .about-title-block { order: 1; } .about-lead { order: 2; } .about-heading > .about-item { order: 3; } .about-body > .about-item:first-child { order: 4; margin-top: 1rem; } .about-body > .about-item-wide { order: 5; } .about-body > .tag-list { order: 6; } }
 /* === About and Projects === */
-.section { padding-block: var(--space); }
+.section { padding-block: var(--space); scroll-margin-top: 96px; }
 .about-section { padding-block: clamp(3.5rem, 6vw, 6rem); }
 .section-heading { max-width: 760px; }
 .about-heading { display: grid; gap: 2rem; margin-bottom: -1rem; }
