@@ -45,6 +45,7 @@ em { color: var(--accent); font-style: normal; }
 .button-quiet { border-color: var(--line); color: var(--ink); }
 .button-quiet:hover { border-color: var(--accent); color: var(--accent); }
 .social-links, .direct-links, .footer-social { display: flex; flex-wrap: wrap; gap: 1rem; }
+.social-links { justify-content: center; }
 .social-links a, .direct-links a, .footer-social a, .text-link, .project-links a { border-bottom: 1px solid var(--line); font-size: .86rem; font-weight: 600; }
 .social-links a:hover, .direct-links a:hover, .footer-social a:hover, .text-link:hover, .project-links a:hover { border-color: var(--accent); color: var(--accent); }
 a[href*="wa.me"], a[href*="wa.me"]:hover { color: #25d366; }
