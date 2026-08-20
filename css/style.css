@@ -68,6 +68,7 @@ a[href*="linkedin.com"], a[href*="linkedin.com"]:hover { color: #0a66c2; }
 .about-grid { display: grid; gap: 2rem; }
 .large-copy { max-width: 530px; font-family: var(--heading); font-size: clamp(1.55rem, 3vw, 2.45rem); line-height: 1.2; letter-spacing: -.03em; }
 .about-body { max-width: 650px; color: var(--muted); }
+.about-section .about-body { color: var(--ink); }
 .about-item { border-top: 1px solid var(--line); padding-top: .9rem; }
 .about-label { margin-bottom: .45rem; color: var(--accent); font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .about-item p:last-child { margin-bottom: 0; text-align: justify; }
@@ -88,7 +89,7 @@ a[href*="linkedin.com"], a[href*="linkedin.com"]:hover { color: #0a66c2; }
 .project-links { display: flex; gap: 1rem; margin-top: 1.5rem; }
 .experience-group + .experience-group { margin-top: 4rem; }
 .experience-heading { margin-bottom: 1.2rem; color: var(--accent); font-size: 1.35rem; }
-.experience-body { max-width: none; }
+.experience-body { max-width: none; color: var(--ink); }
 .file-link { border-bottom: 2px solid var(--accent); }
 .file-link:hover { color: var(--accent); }
 /* === Contact === */
