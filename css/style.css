@@ -56,7 +56,7 @@ a[href*="linkedin.com"], a[href*="linkedin.com"]:hover { color: #0a66c2; }
 .portrait-initials { font: 700 clamp(5rem, 20vw, 9rem)/.8 var(--heading); letter-spacing: -.1em; }
 .portrait-label { margin-top: 1.2rem; font-size: .72rem; font-weight: 700; text-transform: uppercase; }
 .visual-note { width: 100%; margin: 1rem 0 0; color: var(--muted); font-size: .78rem; text-align: center; }
-.scroll-cue { position: static; display: flex; align-items: center; justify-content: center; gap: .7rem; margin-top: 1rem; color: var(--muted); font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; }
+.scroll-cue { position: static; display: flex; align-items: center; justify-content: center; gap: .7rem; margin-top: 2rem; color: var(--muted); font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; }
 .scroll-cue span, .scroll-cue::after { display: block; width: 34px; height: 1px; background: var(--accent); content: ""; }
 @media (max-width: 767px) { .hero-details h1 { margin-inline: auto; text-align: center; } .hero-details .hero-intro { margin-inline: auto; text-align: justify; } }
 @media (max-width: 767px) { .about-section { display: flex; flex-direction: column; gap: .75rem; } .about-heading, .about-grid, .about-body { display: contents; } .about-title-block { order: 1; } .about-lead { order: 2; } .about-heading > .about-item { order: 3; } .about-body > .about-item:first-child { order: 4; margin-top: 1rem; } .about-body > .about-item-wide { order: 5; } .about-body > .tag-list { order: 6; } }
