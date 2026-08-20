@@ -47,6 +47,7 @@ em { color: var(--accent); font-style: normal; }
 .button-quiet:hover { border-color: var(--accent); color: var(--accent); }
 .social-links, .direct-links, .footer-social { display: flex; flex-wrap: wrap; gap: 1rem; }
 .social-links { justify-content: center; }
+.social-label { margin-bottom: 0; }
 .social-links a, .direct-links a, .footer-social a, .text-link, .project-links a { border-bottom: 1px solid var(--line); font-size: .86rem; font-weight: 600; }
 .social-links a:hover, .direct-links a:hover, .footer-social a:hover, .text-link:hover, .project-links a:hover { border-color: var(--accent); color: var(--accent); }
 a[href*="wa.me"], a[href*="wa.me"]:hover { color: #25d366; }
@@ -100,7 +101,7 @@ a[href*="linkedin.com"], a[href*="linkedin.com"]:hover { color: #0a66c2; }
 .contact-section .eyebrow { color: var(--accent); }
 .contact-section h2 { margin-bottom: 1.5rem; }
 .contact-copy { max-width: 390px; color: var(--muted); text-align: justify; }
-.direct-links { margin-top: 2rem; }
+.direct-links { align-items: center; margin-top: 2rem; }
 .direct-links a { border-color: #ffffff44; }
 .contact-grid { display: grid; gap: 3rem; }
 .contact-form { max-width: 560px; }
