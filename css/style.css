@@ -89,6 +89,7 @@ a[href*="linkedin.com"], a[href*="linkedin.com"]:hover { color: #0a66c2; }
 .project-content > p:not(.project-type) { min-height: 53px; color: var(--muted); font-size: .9rem; }
 .project-content .tag-list { margin-top: 1.2rem; }
 .project-links { display: flex; gap: 1rem; margin-top: 1.5rem; }
+.experience-group { scroll-margin-top: 96px; }
 .experience-group + .experience-group { margin-top: 4rem; }
 .experience-heading { margin-bottom: 1.2rem; color: var(--accent); font-size: 1.35rem; }
 .experience-body { max-width: none; color: var(--ink); }
