@@ -6,7 +6,7 @@ Welcome to my personal portfolio. I am a civil engineering student from Nepal, a
 
 Open the live GitHub Pages website here:
 
-**[Visit My Portfolio](https://binodregmi.github.io/binodrajregmi/)**
+**[Visit My Portfolio](https://binodregmi.github.io/)**
 
 ## About the Portfolio
 
