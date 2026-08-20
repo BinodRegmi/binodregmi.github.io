@@ -35,7 +35,7 @@ em { color: var(--accent); font-style: normal; }
 /* === Hero === */
 .hero { position: relative; display: grid; min-height: auto; align-items: start; padding-block: 2.5rem 2.5rem; }
 .hero-copy, .hero-details { z-index: 1; margin-bottom: 0; }
-.hero-intro { max-width: 530px; margin-bottom: 1.5rem; color: var(--muted); font-size: 1.12rem; }
+.hero-intro { max-width: 530px; margin-bottom: 1.5rem; color: var(--muted); font-size: 1.12rem; text-align: justify; }
 .hero-intro strong { color: var(--ink); }
 .status-dot { display: inline-block; width: 7px; height: 7px; margin-left: .35rem; border-radius: 50%; background: #51a96b; vertical-align: middle; }
 .hero-buttons { display: flex; flex-wrap: wrap; gap: .8rem; margin-bottom: 2rem; }
