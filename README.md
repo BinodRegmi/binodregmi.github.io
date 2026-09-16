@@ -13,7 +13,6 @@ Open the live GitHub Pages website here:
 The portfolio includes:
 
 - My background and civil engineering education
-- My academic research on the effect of different types of water on concrete strength
 - My internship experience at Tarakeshwor Municipality
 - My skills, including AutoCAD, ETABS, MS Office, and transportation engineering
 - Contact details and a contact form
