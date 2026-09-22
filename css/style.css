@@ -68,12 +68,14 @@ a[href*="linkedin.com"], a[href*="linkedin.com"]:hover { color: #0a66c2; }
 /* === About and Projects === */
 .section { padding-block: var(--space); scroll-margin-top: 96px; }
 .about-section { padding-block: clamp(3.5rem, 6vw, 6rem); }
+.projects-section { padding-top: clamp(2rem, 4vw, 4rem); }
 .section-heading { max-width: 760px; }
 .about-heading { display: grid; gap: 2rem; margin-bottom: -1rem; }
 .about-grid { display: grid; gap: 2rem; }
 .large-copy { max-width: 530px; font-family: var(--heading); font-size: clamp(1.55rem, 3vw, 2.45rem); line-height: 1.2; letter-spacing: -.03em; }
 .about-body { max-width: 650px; color: var(--muted); }
 .about-section .about-body { color: var(--ink); }
+.about-section .tag-list { margin-top: 0; }
 .about-item { border-top: 1px solid var(--line); padding-top: .9rem; }
 .about-label { margin-bottom: .45rem; color: var(--accent); font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .about-item p:last-child { margin-bottom: 0; text-align: justify; }
